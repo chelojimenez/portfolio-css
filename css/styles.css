@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color: #40514E;
+}
+
+p
+{
+    line-height: 2;
+}
+
+hr
+{
+    border: dotted #726a95;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #709fb0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #709fb0;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #709fb0;
+}
+
+a
+{
+    color: #f4ebc1;
+}
+a:hover
+{
+    color: #a0c1b8;
+}
+.top-container {
+    background-color: #f4ebc1;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container
+{
+    margin: 100px 0;
+}
+.bottom-container
+{
+    background-color: #726a95;
+}
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 175px auto;
+    text-align: left;
+    overflow: auto;
+}
+
+.myself
+{
+    width: 25%;
+}
+.skill1
+{
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill2
+{
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+}
+.intro
+{
+    /* width: 30%; */
+    margin: auto;
+}
+
+.contact-message
+{
+    width: 40%;
+    margin: 40px auto;
+    font-size: 1em;
+}
+
+.btn{
+    font-size: .8em;
+    text-align: center;
+    display: block;
+    position: relative;
+    background: #45b29a;
+    padding: .75em 2em .75em 3.5em;
+    color: #1b7f69;
+    text-decoration: none;
+    margin: 1.5em 0 0;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: 400;
+    border: 0;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+}
+
+.copyr
+{
+    color: #f4ebc1;
+}
